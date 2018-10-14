@@ -1,4 +1,5 @@
 # Decision Tree
+
 In general, a tree has many analogies in the real life and helps Machine Learning with both Classification and Regression. Decision Tree visually represents with the root at the top followed by the branches/edges. The data that contains 1 (Success) or 0 (Failure) which is called as binary variable is used in the decision tree. It helps to classify one of the binary value to provide clear understanding of the data set.
 
 All the internal nodes are based on the binary conditions based on the list of categories/features that helps to make the final decision. The final split is known as the decision/leaf node which provides the successful data retrieved. Decision Tree algorithms is referred to as CART (Classification and Regression Trees).
@@ -9,8 +10,8 @@ All the internal nodes are based on the binary conditions based on the list of c
 - Simple to understand, visualize and interpret.
 - Decision trees implicitly perform feature selection and variable screening.
 - It can handle numerical and categorical data.
-- It can also resolve multi-output problems.
 - It requires relatively less effort for data preparation.
+- It can also resolve multi-output problems.
 - Nonlinear relationships between parameters do not affect tree performance.
 
 
@@ -103,7 +104,7 @@ Using the 11 different features in the dataset we used Decision Tree to get the 
 - FN = False Negative
 - TN = True Negative
 
-**Formulas:** 
+**Formulas:**
 - Accuracy = TP+TN/TP+FP+FN+TN
 - Precision = TP/TP+FP
 - Recall = TP/TP+FN
